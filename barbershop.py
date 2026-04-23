@@ -51,3 +51,20 @@ spa_data = {
         "back_to_school": 350,
         "other_styles": 450
     },
+"weaves": {
+        "weaving": 400,
+        "pedicure": 500
+    }
+}
+
+
+# PRICE CALCULATOR
+
+def calculate_total(user_input):
+    text = user_input.lower()
+    total = 0
+    matched_services = []
+
+    if "kids" in text and "style" in text:
+        total += spa_data["haircuts"]["kids_styling"]
+        matched_services.append("Kids Styling")
