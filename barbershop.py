@@ -24,3 +24,15 @@ spa_data = {
         "kids_colour": 500,
         "adult_black": 400,
         "adult_colour": 800
+        "beard": {
+        "beard_trim": 50,
+        "eyebrow": 50
+    },
+    "care": {
+        "hair_wash": 100,
+        "face_scrub": 100,
+        "full_face_scrub": 300,
+        "straightening": 100,
+        "wash_straight": 200,
+        "blowdry": 250
+    },
