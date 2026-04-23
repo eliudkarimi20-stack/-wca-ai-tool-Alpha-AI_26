@@ -68,3 +68,10 @@ def calculate_total(user_input):
     if "kids" in text and "style" in text:
         total += spa_data["haircuts"]["kids_styling"]
         matched_services.append("Kids Styling")
+  if "adult" in text and "cut" in text:
+        total += spa_data["haircuts"]["adult_bald"]
+        matched_services.append("Adult Haircut")
+
+    if "beard" in text:
+        total += spa_data["beard"]["beard_trim"]
+        matched_services.append("Beard Trim")
