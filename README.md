@@ -16,7 +16,7 @@ The tool uses **structured JSON data** and **artificial intelligence** to provid
 - Uses real-world business data
 
   
-## 🏪 Case Study: Barbershop
+## Case Study: Barbershop
 For demonstration, the system uses a *barbershop business model*.
 
 Users can ask questions like:
