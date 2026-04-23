@@ -14,3 +14,14 @@ The tool uses **structured JSON data** and **artificial intelligence** to provid
 - Calculates total cost for multiple services
 - Displays a full service menu
 - Uses real-world business data
+
+  
+## 🏪 Case Study: Barbershop
+For demonstration, the system uses a *barbershop business model*.
+
+Users can ask questions like:
+- “How much is a haircut?”
+- “How much is kids styling and beard?”
+- “Do you offer braiding?”
+
+The system responds instantly with correct prices and totals.
