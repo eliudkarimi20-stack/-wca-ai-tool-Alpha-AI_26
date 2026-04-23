@@ -45,4 +45,9 @@ spa_data = {
         "under_6": 600,
         "extensions_knotless": 1000,
         "extensions_normal": 900
+    }, "extras": {
+        "school_lines": 150,
+        "needle_lines": 200,
+        "back_to_school": 350,
+        "other_styles": 450
     },
