@@ -123,3 +123,17 @@ def generate_response(user_input):
         model="gpt-4.1-mini",
         messages=[{"role": "user", "content": prompt}],
         temperature=0.7
+    return response.choices[0].message.content
+
+
+
+# DISPLAY FULL MENU
+
+def show_menu():
+    print("\n💈 FULL PRICE LIST:")
+    for category, items in spa_data.items():
+        print(f"\n--- {category.upper()} ---")
+        for service, price in items.items():
+            print(f"{service}: {price} KES")
+
+
