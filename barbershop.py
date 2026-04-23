@@ -115,3 +115,11 @@ def generate_response(user_input):
     EXTRA DATA:
     Detected services: {services}
     Pre-calculated total: {total} KES
+       USER QUESTION:
+    {user_input}
+    """
+
+    response = client.chat.completions.create(
+        model="gpt-4.1-mini",
+        messages=[{"role": "user", "content": prompt}],
+        temperature=0.7
