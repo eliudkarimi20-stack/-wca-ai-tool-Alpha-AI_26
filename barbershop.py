@@ -75,3 +75,12 @@ def calculate_total(user_input):
     if "beard" in text:
         total += spa_data["beard"]["beard_trim"]
         matched_services.append("Beard Trim")
+         if "dread" in text:
+        total += spa_data["dreadlocks"]["retouch"]
+        matched_services.append("Dreadlocks Retouch")
+
+    if "braid" in text:
+        total += spa_data["braids"]["knotless"]
+        matched_services.append("Knotless Braids")
+
+    return total, matched_services
