@@ -36,3 +36,8 @@ spa_data = {
         "wash_straight": 200,
         "blowdry": 250
     },
+  "dreadlocks": {
+        "natural": 3000,
+        "retouch": 500,
+        "artificial": 1500
+    },
