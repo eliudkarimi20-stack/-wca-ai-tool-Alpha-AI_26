@@ -134,6 +134,36 @@ def show_menu():
     for category, items in spa_data.items():
         print(f"\n--- {category.upper()} ---")
         for service, price in items.items():
-            print(f"{service}: {price} KES")
+            print(f"{service}: {price} KES")# LOOP
+
+def main():
+    print("💈 Welcome to Exotic Barbershop AI Assistant")
+    print("Type 'menu' to see all prices")
+    print("Type 'exit' to quit\n")
+
+    while True:
+        user_input = input("You: ")
+
+        if user_input.lower() in ["exit", "quit", "bye"]:
+            print("Assistant: Thank you for visiting! 👋")
+            break
+
+        if user_input.lower() == "menu":
+            show_menu()
+            continue
+
+        try:
+            reply = generate_response(user_input)
+            print(f"Assistant: {reply}\n")
+
+        except Exception as e:
+            print(f"⚠️ Error: {e}")
+
+
+
+# RUN APP
+
+if _name_ == "_main_":
+    main()
 
 
