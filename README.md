@@ -25,3 +25,10 @@ Users can ask questions like:
 - “Do you offer braiding?”
 
 The system responds instantly with correct prices and totals.
+
+## ⚙️ Technologies Used
+- Python 🐍
+- OpenAI API 🤖
+- JSON 📄
+
+---
