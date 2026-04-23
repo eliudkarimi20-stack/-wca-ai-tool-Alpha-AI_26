@@ -40,4 +40,9 @@ spa_data = {
         "natural": 3000,
         "retouch": 500,
         "artificial": 1500
+    },  "braids": {
+        "knotless": 800,
+        "under_6": 600,
+        "extensions_knotless": 1000,
+        "extensions_normal": 900
     },
