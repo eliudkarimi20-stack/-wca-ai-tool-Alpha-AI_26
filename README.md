@@ -1,6 +1,6 @@
 # -wca-ai-tool-Alpha-AI_26
 
-# 💡 AI-Powered Business Assistant Tool
+# AI-Powered Business Assistant Tool
 
 ## Overview
 This project is an **AI-powered business assistant** built using Python and the OpenAI API.  
