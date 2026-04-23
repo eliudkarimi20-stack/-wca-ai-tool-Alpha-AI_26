@@ -8,3 +8,9 @@ It helps businesses automate customer interactions by answering questions about 
 
 The tool uses **structured JSON data** and **artificial intelligence** to provide accurate, real-time responses.
 
+What the Tool Does
+- Answers customer questions using AI
+- Provides service pricing
+- Calculates total cost for multiple services
+- Displays a full service menu
+- Uses real-world business data
