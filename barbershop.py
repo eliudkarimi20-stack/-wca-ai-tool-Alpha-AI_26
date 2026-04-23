@@ -18,3 +18,9 @@ spa_data = {
         "adult_bald": 150,
         "adult_styling": 200,
         "cut_only": 50
+           },
+    "haircut_dye": {
+        "kids_black": 300,
+        "kids_colour": 500,
+        "adult_black": 400,
+        "adult_colour": 800
