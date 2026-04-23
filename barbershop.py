@@ -83,4 +83,18 @@ def calculate_total(user_input):
         total += spa_data["braids"]["knotless"]
         matched_services.append("Knotless Braids")
 
-    return total, matched_services
+    return total, matched_services# AI RESPONSE FUNCTION
+
+def generate_response(user_input):
+    total, services = calculate_total(user_input)
+
+    prompt = f"""
+    ROLE:
+    You are a professional and friendly barber assistant for Exotic Barbershop in Kenya.
+
+    TASK:
+    Answer customer questions about services and prices.
+
+    CONTEXT:
+    Here is the price list:
+    {json.dumps(spa_data, indent=2)}
