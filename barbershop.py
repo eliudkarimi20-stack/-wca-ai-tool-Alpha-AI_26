@@ -130,14 +130,14 @@ def generate_response(user_input):
 # DISPLAY FULL MENU
 
 def show_menu():
-    print("\n💈 FULL PRICE LIST:")
+    print("\n FULL PRICE LIST:")
     for category, items in spa_data.items():
         print(f"\n--- {category.upper()} ---")
         for service, price in items.items():
             print(f"{service}: {price} KES")# LOOP
 
 def main():
-    print("💈 Welcome to Exotic Barbershop AI Assistant")
+    print(" Welcome to Exotic Barbershop AI Assistant")
     print("Type 'menu' to see all prices")
     print("Type 'exit' to quit\n")
 
@@ -145,7 +145,7 @@ def main():
         user_input = input("You: ")
 
         if user_input.lower() in ["exit", "quit", "bye"]:
-            print("Assistant: Thank you for visiting! 👋")
+            print("Assistant: Thank you for visiting! ")
             break
 
         if user_input.lower() == "menu":
@@ -157,7 +157,7 @@ def main():
             print(f"Assistant: {reply}\n")
 
         except Exception as e:
-            print(f"⚠️ Error: {e}")
+            print(f" Error: {e}")
 
 
 
