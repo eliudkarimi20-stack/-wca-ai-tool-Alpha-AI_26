@@ -36,6 +36,5 @@ The system responds instantly with correct prices and totals.
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/your-username/wca-ai-tool-[GroupName].git
-cd wca-ai-tool-[Alpha-AI_26
+git clone https://github.com/eliudkarimi20-stack/-wca-ai-tool-Alpha-AI_26
 ---
